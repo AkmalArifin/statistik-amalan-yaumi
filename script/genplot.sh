@@ -132,7 +132,7 @@ function genplot()
             read -a temp <<< "${j}"
             IFS="."
             read -a temp <<< "${temp[2]}"
-            LT=getLT $TARGET
+            LT=$(getLT $temp)
             plotone "${j}" $LT $cnt $nbfiles
             ((cnt += 1))
         done

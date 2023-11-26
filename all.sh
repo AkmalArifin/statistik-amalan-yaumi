@@ -50,4 +50,4 @@ for i in $PLOTDIR/*.plot; do
     gnuplot "${i}"
 done
 
-# python $SCRIPTDIR/getter.py $TARGET
+python $SCRIPTDIR/getter.py pdf $TARGET
