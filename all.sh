@@ -40,3 +40,5 @@ done
 
 # generate pdf
 python "$SCRIPTDIR/getter.py" pdf $TARGET
+
+echo "==== generate pdf done ===="
