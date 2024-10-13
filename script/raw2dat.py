@@ -2,8 +2,6 @@ import csv
 import os 
 import sys
 
-# TODO 
-
 def raw2data(folder_dir, file_name):
     data = []
     dir = folder_dir + '/' + file_name

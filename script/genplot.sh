@@ -4,10 +4,6 @@
 # Generate a template gnuplot file
 #
 
-# TODO : bikin graph per orang, orang itu per folder
-# iterate per folder, folder di buka, di dalemnya ada file per bulan
-# setiap file di dalam folder kita plot pake genplot
-
 SOURCE="${BASH_SOURCE[0]}"
 while [ -h "$SOURCE" ]; do
     TOPDIR="$( cd -P "$(dirname "$SOURCE" )" && pwd )"
@@ -35,8 +31,6 @@ fi
 [[ ! -d $PDFDIR ]] && mkdir -p $PDFDIR
 
 TARGET="$1"
-# GRAPH="$2"
-# DATA="$3"
 
 STYLE=
 XRANGE=

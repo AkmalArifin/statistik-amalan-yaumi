@@ -8,7 +8,7 @@ file_name = sys.argv[2]
 # List all files in the folder
 folders = os.listdir(folder_name)
 
-# Iterate through the files
+# Iterate through the files to generate pdf
 for folder in folders:
     src_path = "./" + folder_name + "/" + folder + "/" + file_name + ".pdf"
     dest_path = "./get/" + folder + ".pdf"
