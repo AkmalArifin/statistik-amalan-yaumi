@@ -27,6 +27,7 @@ The format csv file is the first row is column name, and it will group by the fi
 3. To run the file, run `./all.sh {TARGET_FILE}`. Fill your target file in `/raw` folder without the extension. Example `./all.sh 1_Januari`
 4. Wait until the program finished. It will took a while.
 5. After it finished. Check `/get` folder. The file should be there.
+6. If you want to make multiple month, just run the programme for other month but don't clear the results. It will automatically add to the existing graph.
 
 ## Contact
 If there is an error or something, you can always ping me on my instagram [@menujuakmal](https://www.instagram.com/menujuakmal/)
